@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de sesion</title>
+  <link  rel="stylesheet" href="stylelogreg.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Página Principal</a></li>
+      <li><a href="pago.html">Pago</a></li>
+      <li><a href="recibos.html">Recibos</a></li>
+      <li><a href="wallet.html">Wallet</a></li>
+      <li><a href="administracion.html">Administracion</a></li>
+    </ul>
+  </nav>
+  <div class="formulario">
+    <h1>Register</h1>
+    <form method="post">  
+
+      <div class = "name">
+        <input
+         type="text" required
+         placeholder="Ingrese su Nombre"
+        />
+      </div>
+
+      <div class = "email">
+        <input
+         type="text" required
+         placeholder="Ingrese su email"
+        />
+      </div>
+
+      <div class = "contraseña">
+        <input
+         type="password" required
+         placeholder="Crear contraseña"
+        />
+      </div>
+
+      <div class = "contraseña2">
+        <input
+         type="password" required
+         placeholder="Confirmar contraseña"
+        />
+      </div>
+
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+        />
+        <label class="form-check-label" for="terminosCondiciones">
+          Acepto los <a href="terminosCondiciones.html"> terminos y condiciones</a></label
+        >
+      </div>
+
+      <input type="submit" value=Iniciar>
+
+      <div class="logearse">
+        ¿Ya tienes una cuenta? <a href="login.html"> Inicia sesion</a>
+      </div>
+
+    </form>
+  </div>
+  
+</body>
+</html>

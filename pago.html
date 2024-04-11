@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="stylepago.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Página Principal</a></li>
+          <li><a href="pago.html">Pago</a></li>
+          <li><a href="recibos.html">Recibos</a></li>
+          <li><a href="wallet.html">Wallet</a></li>
+          <li><a href="administracion.html">Administracion</a></li>
+        </ul>
+      </nav>
+    <div class="container">
+        <div class="left-section">
+            <h2>Productos en el Carrito</h2>
+            <div class="cart-header">
+                <div class="header-item">Producto</div>
+                <div class="header-item price">Precio</div>
+                <div class="header-item total">Total</div>
+            </div>
+            <ul class="cart-items">
+                <li>
+                    <div class="item-details">
+                        <img src="https://cdnx.jumpseller.com/centralgamer/image/45132937/resize/1200/1200?1712024390" alt="Producto 1">
+                        <div class="product-info">
+                            <h3>Asus Tuf rtx 4080</h3>
+                            <p>Número de Serie: ABC123</p>
+                            <p>Color: Rojo</p>
+                            <p>Cantidad: 4</p>
+                            <div class="edit-remove">
+                                <button class="edit-button">Editar</button>
+                                <button class="remove-button">Remover</button>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>$1000</p>
+                        </div>
+                        <div class="total">
+                            <p>$4000</p>
+                        </div>                       
+                    </div>
+                </li>
+                <li>
+                    <div class="item-details">
+                        <img src="https://media.kingston.com/kingston/product/FURY_Beast_White_RGB_DDR5_2_angle-zm-lg.jpg" alt="Producto 2">
+                        <div class="product-info">
+                            <h3>HyperX Ram DDR5</h3>
+                            <p>Número de Serie: DSAF325</p>
+                            <p>Color: Azul</p>
+                            <p>Cantidad: 1</p>
+                            <div class="edit-remove">
+                                <button class="edit-button">Editar</button>
+                                <button class="remove-button">Remover</button>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>$80</p>
+                        </div>
+                        <div class="total">
+                            <p>$80</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-details">
+                        <img src="https://cdn2.spider.cl/20307-large_default/monitor-gaming-msi-optix-g271-panel-ips-27-full-hd-144hz-1ms-negro.jpg" alt="Producto 2">
+                        <div class="product-info">
+                            <h3>Monitor 144hz</h3>
+                            <p>Número de Serie: RTYG432</p>
+                            <p>Color: Negro</p>
+                            <p>Cantidad: 2</p>
+                            <div class="edit-remove">
+                                <button class="edit-button">Editar</button>
+                                <button class="remove-button">Remover</button>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>$120</p>
+                        </div>
+                        <div class="total">
+                            <p>$240</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-details">
+                        <img src="https://neeks.cl/wp-content/uploads/2021/09/rk100-neeks.jpg" alt="Producto 2">
+                        <div class="product-info">
+                            <h3>Teclado Gamer Mecanico</h3>
+                            <p>Número de Serie: GRTE543</p>
+                            <p>Color: Blanco</p>
+                            <p>Cantidad: 1</p>
+                            <div class="edit-remove">
+                                <button class="edit-button">Editar</button>
+                                <button class="remove-button">Remover</button>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <p>$50</p>
+                        </div>
+                        <div class="total">
+                            <p>$50</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="right-section">
+            <div class="order-summary">
+                <h2>Resumen del Pedido</h2>
+                <div class="discount">
+                    <input type="text" placeholder="Código de Descuento">
+                    <button>Aplicar</button>
+                </div>
+                <div class="subtotals">
+                    <div class="left-column">
+                        <h6>Subtotal</h6>
+                        <h6>Envío</h6>
+                    </div>
+                    <div class="right-column">
+                        <h6>$390.00</h6>
+                        <h6>Gratis</h6>
+                    </div>
+                </div>
+                <div class="grand-total">
+                    <h5>Total a Pagar</h5>
+                    <h5>$390.00</h5>
+                </div>
+            <button class="checkout-button">Pagar</button>
+        </div>
+    </div>
+</body>
+</html>
